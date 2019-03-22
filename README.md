@@ -79,3 +79,28 @@ _____________________________________________________________
 
 DOCKER PLAYLIST
 https://www.youtube.com/playlist?list...
+
+
+Interview Questions
+Basic
+: docker version
+: docker -v
+: docker info
+: docker --help
+: docker login
+————————————
+Images
+: docker images
+: docker pull
+: docker rmi
+————————————
+Containers
+: docker ps
+: docker run
+: docker start
+: docker stop
+————————————
+System
+: docker stats
+: docker system df
+: docker system prune
