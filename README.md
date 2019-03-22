@@ -11,30 +11,30 @@ Prerequisites<br/>
 Connect to Linux<br/>
 Install Docker<br/>
 Start Docker<br/>
-Stop Docker
-Uninstall Docker
+Stop Docker<br/>
+Uninstall Docker<br/>
 
 
 Prerequisite
-OS should be 64 bit
-Linux kernel ver 3.10 or greater
+OS should be 64 bit<br/>
+Linux kernel ver 3.10 or greater<br/>
 
-command to check : uname -r
+command to check : uname -r<br/>
 
-STEP 1 - Connect to Linux system
+STEP 1 - Connect to Linux system<br/>
 
-STEP 2 - Install DOCKER
-sudo yum -y update
-sudo yum install -y docker
+STEP 2 - Install DOCKER<br/>
+sudo yum -y update<br/>
+sudo yum install -y docker<br/>
 
 docker
-docker --version
+docker --version<br/>
 
-STEP 3 - start DOCKER
-sudo service docker start
-sudo usermod -a -G docker "user"
+STEP 3 - start DOCKER<br/>
+sudo service docker start<br/>
+sudo usermod -a -G docker "user"<br/>
 
-docker info
+docker info5<br/>55
 
 docker run hello-world : to run hello-world image
 
